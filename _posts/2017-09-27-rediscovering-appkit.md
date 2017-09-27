@@ -3,8 +3,8 @@ layout: post
 title: "Rediscovering AppKit"
 date: 2017-09-27
 ---
-I'm currently working on new features for my app Netopsy, and I thought it would be a good
-idea to keep track of my progress.
+I'm currently working on new features for my app [Netopsy] [netopsy-itunes], and I thought
+it would be a good idea to keep track of my progress.
 
 Netopsy is an app that lets you view network traces from Fiddler.NET. While working on the 
 Yammer team at Microsoft, I occasionally received network traces and discovered that while
@@ -77,10 +77,13 @@ class CustomSearchField: NSControl {
 That's... something. It's not terribly handsome, but we can build on this.
 
 I owe much gratitude to the following URLs:
-- [stackoverflow: Best way to change the background color for an NSView](https://stackoverflow.com/questions/2962790/best-way-to-change-the-background-color-for-an-nsview) (Is there a way
+- [stackoverflow: Best way to change the background color for an NSView][nsview-bgcolor] (Is there a way
   to see how many times I've visited a particular stackoverflow question? I feel like this has to be my number one
   most revisited question and answer. (And based on the activity there - I'm not the only one.))
 
 Radars opened:
 - [Unable to create new playground in existing workspace](https://openradar.appspot.com/34666710)
 - [Playground stops working](https://openradar.appspot.com/34690901)
+
+[netopsy-itunes]: https://itunes.apple.com/us/app/netopsy/id1171312680?mt=12
+[nsview-bgcolor]: https://stackoverflow.com/questions/2962790/best-way-to-change-the-background-color-for-an-nsview
